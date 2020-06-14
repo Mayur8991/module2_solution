@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: honeydew;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin: 0;
+}
+.boxtitle {
+  background-color: gray;
+  float: right;
+  width: 20%;
+  padding: 0.5%;
+  margin: 0 0 0.5% 0;
+  border: 2px solid black;
+  text-align: center;
+  position: relative;
+  top: 0px;
+  right: 0px;
+  font-size: 1.5em;
+  color: white;
+}
+p {
+  clear: right;
+  margin: 1%;
+  padding: 1%;
+}
+@media (min-width: 992px) {
+  section {
+    background-color: gray;
+    float: left;
+    width: 32.3%;
+    padding: 1px;
+    margin: 0.5%;
+    border: 2px solid black;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    background-color: gray;
+    padding: 1px;
+    margin: 0.5%;
+    border: 2px solid black;
+  }
+  .upperbox1,
+  .upperbox2 {
+    float: left;
+    width: 50%;
+  }
+  .lowerbox1 {
+    float: left;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  section {
+    background-color: gray;
+    float: left;
+    width: 100%;
+    padding: 1px;
+    margin: 0.5%;
+    border: 2px solid black;
+  }
+}
+
+.upperbox1 {
+  background-color: greenyellow;
+}
+.upperbox2 {
+  background-color: indianred;
+}
+.lowerbox1 {
+  background-color: indigo;
+}
